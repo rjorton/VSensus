@@ -30,7 +30,7 @@ This will use the defaults of coverage threshold = 5 (-c=5), minimum qulaity = 0
 The defaults can be changed via the command line by providing arguments after the mpileup filename:
 
 ```
-java -jar VSENSUS.jar sample_mpileup.txt -c=10 -q=20
+java -jar /FOLDER/PATH/VSENSUS.jar sample_mpileup.txt -c=10 -q=20
 ```
 
 To vary the threshold at which an ambiguity code is used, use the -a option:
